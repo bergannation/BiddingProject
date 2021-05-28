@@ -1,0 +1,20 @@
+DROP DATABASE IF EXISTS auctionDB;
+
+CREATE DATABASE auctionDB;
+
+USE auctionDB;
+
+CREATE TABLE items (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NULL,
+  category VARCHAR(45) NULL,
+  price DECIMAL(10,2) NULL,
+  PRIMARY KEY (id)
+);
+
+
+CREATE TABLE bids (
+  itemId INT NOT NULL,
+  highestPrice DECIMAL(10,2) NULL,
+   
+);

@@ -1,0 +1,17 @@
+{
+  "name": "10-GreatBay",
+  "version": "1.0.0",
+  "description": "**Instructions**",
+  "main": "greatBayBasic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node greatBayBasic.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.0",
+    "mysql": "^2.18.1"
+  }
+}
